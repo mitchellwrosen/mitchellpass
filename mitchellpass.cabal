@@ -6,10 +6,15 @@ version: 0
 executable mitchellpass
   build-depends:
     aeson,
+    asn1-encoding,
+    asn1-types,
     base,
+    base64,
     bytestring,
+    cryptonite,
     text,
     unordered-containers,
+    x509,
   default-language:
     Haskell2010
   main-is:
