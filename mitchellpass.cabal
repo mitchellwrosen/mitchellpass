@@ -12,6 +12,7 @@ executable mitchellpass
     base64,
     bytestring,
     cryptonite,
+    memory,
     text,
     unordered-containers,
     x509,
