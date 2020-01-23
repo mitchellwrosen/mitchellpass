@@ -1,0 +1,12 @@
+cabal-version: 3.0
+
+name: mitchellpass
+version: 0
+
+executable mitchellpass
+  build-depends:
+    base
+  default-language:
+    Haskell2010
+  main-is:
+    Main.hs
